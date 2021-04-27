@@ -1,0 +1,32 @@
+
+h1 {
+	
+	font-size: 36px;
+	color: rgb(5, 5, 5);
+	font-family: 'Open Sans';
+	background-color: rgb(60, 200, 255);
+	font-weight:  bolder;
+	}
+	body {
+		background-color: #65e2f8;
+		background-image: url("img/geografia.jpg");
+	  }
+	  
+	  * {
+		box-sizing: border-box;
+	}
+	.header {
+		background-color: #f7f7f7;
+		border-bottom: 1px solid #f0f0f0;
+		padding: 20px 40px;
+		text-align: center;
+	}
+	  .stroke {
+		-webkit-text-fill-color: rgb(63, 56, 153);
+		-webkit-text-stroke: 1px rgb(255, 0, 0);
+		text-align:center;
+		}
+#map {
+	height: 300px;
+	width: 30%;
+}

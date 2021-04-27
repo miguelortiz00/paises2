@@ -1,0 +1,156 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SURAMERICA</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>♦INFORMACION GEOGRAFICA ♦</title>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-dark bg-dark">
+        
+        <a class="navbar-brand" href="#">♦INFORMACION GEOGRAFICA ♦</a>
+    
+        </nav>
+        <center>
+        <div class="container">
+            <div id="App" class="row pt-5">
+                <div class="col-md-5">
+                    <div class="card">
+                        <div class="card-header">
+                        <div class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                    <i>         
+                        <strong> <h1>INFORMACION GEOGRAFICA PARA EL MUNDO</h1> </strong>
+                        
+                </div>
+            </div>
+                <div id="product-list" class="col-md-8"></div>
+            </div>
+        </div>
+        
+        <div class="container my-5 text-center">
+    
+    
+              <select name="provincia" class="provincia btn btn-secondary" >
+                <option>Seleccione un pais</option>
+               </select>
+    
+    <!-- Datos meteorologicos -->
+    
+               <div style="display: grid; grid-template-columns: auto auto;">
+                    <div>
+                        Temperatura maxima:
+                    </div>
+                    <div id="temperaturaMaxima"></div>
+    
+                    <div>
+                        Temperatura minima:
+                    </div>
+                    <div id="temperaturaMinima"></div>
+    
+                    <div>
+                        Temperatura actual:
+                    </div>
+                    <div id="temperaturaActual"></div>
+    
+                    <div >
+                        Descripcion:
+                    </div>
+                    <div id="descripcion"></div>
+    
+                    <div>
+                        Pais:
+                    </div>
+                    <div  id="pais"></div>
+    
+    
+    
+    
+    
+                    </div>
+                    </div>
+    </div></center>
+            
+    
+    
+    <!-- banddera y otros datos -->
+           <div class="mt-5" id="contenido">  
+               </div>
+    
+               <body>
+                <div class="container">
+                    <div class="header">
+                        <h2>!Registrate para tu proximo vuelo !!</h2>
+                    </div>
+                    <form class="form" id="form">
+                        <div class="form__control">
+                            <label>Nombres:</label>
+                            <input
+                            type="text"
+                            placeholder="Ingresa tu nombre.."
+                            id="nombre"
+                            />
+                            <form class="form" id="form">
+                                <div class="form__control">
+                                    <label>Telefono:</label>
+                                    <input
+                                    type="text"
+                                    placeholder="Ingresa tu Telefono.."
+                                    id="telefono"
+                                    /><form class="form" id="form">
+                                        <div class="form__control">
+                                            <label>pais :</label>
+                                            <input
+                                            type="text"
+                                            placeholder="pais a que quura viajar.."
+                                            id="pais"
+                                            /><form class="form" id="form">
+                                                <div class="form__control">
+                                                    <label>Edad:</label>
+                                                    <input
+                                                    type="text"
+                                                    placeholder="Ingresa tu Edad.."
+                                                    id="Edad"
+                                                /><form class="form" id="form">
+                                                    <div class="form__control">
+                                                        <label>RH:</label>
+                                                        <input
+                                                        type="text"
+                                                        placeholder="Ingresa tu Tipo de sangre."
+                                                        id="RH"
+                                                    />
+    
+
+                                                    <h2>Seleccione un Pokemon</h2>
+		<br><br>
+		<div></div>
+		<div class="ContentPokemon">
+			<select id="SelectPokemon">
+			</select>
+		</div>
+		<div id="infoPokemon">
+		</div>
+                                                    <!-- Maps -->
+    <div id="map"></div>
+ 
+         </i>             
+        </div>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+     
+
+    
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    
+</body>
+
+
+
+
+</html>
